@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+main {
+  margin: 32px auto;
+  width: 90%;
+}
+
+meal-list {
+  display: block;
+  margin-top: 32px;
+  padding: 16px;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  meal-list {
+    padding: 8px;
+  }
+}
+
+#app-bar {
+  display: block;
+  width: 100%;
+  position: relative;
+  background-color: #8E3200;
+  color: #F9B208;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}      
+
+#app-bar > h1 {
+  padding: 10px 20px;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+#app-bar > .dropdown {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #F9B208;
+}

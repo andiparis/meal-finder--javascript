@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FindingMeal</title>
+</head>
+<body>
+  <header>
+    <div id="app-bar">
+      <h1>FindingMeal</h1>
+      <div class="dropdown">
+        <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Settings
+        </a>
+        <ul class="dropdown-menu">
+          <li><a id="byName" class="dropdown-item">Search by name</a></li>
+          <li><a id="byCategory" class="dropdown-item">Search by category</a></li>
+          <li><a id="byOrigin" class="dropdown-item">Search by origin</a></li>
+          <li><a id="byMainIngredient" class="dropdown-item">Search by main ingredient</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <search-bar></search-bar>
+    <meal-list class="row"></meal-list>
+  </main>
+</body>
+</html>
